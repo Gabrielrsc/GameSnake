@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mansalva', cursive;
+}
+
+body {
+  background-color: #515151;
+}
+
+#conteiner {
+  margin: auto;
+  width: 790px;
+}
+
+#conteiner h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#conteiner h1 img {
+  width: 100px;
+}
+
+#status {
+  margin-bottom: 10px;
+}
+#pontuacao-fruta {
+  float: left;
+  width: 120px;
+}
+
+#pontuacao-fruta span {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+#pontuacao-fruta img {
+  width: 40px;
+}
+
+#play img,
+#pause-continue img {
+  width: 40px;
+}
+
+#play {
+  float: left;
+  width: 540px;
+  text-align: center;
+}
+
+#pause-continue {
+  float: right;
+  margin-right: 20px;
+}
+
+#snakeGame {
+  background-image: url(/images/msg_box.png);
+  background-repeat: no-repeat;
+}
+
+.credito {
+  float: right;
+  color: white;
+  margin-right: 20px;
+  margin-top: -5px;
+}
+
+#fruta,
+.cabeca {
+  display: none;
+}

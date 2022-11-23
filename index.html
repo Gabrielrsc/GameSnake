@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="snake.css" />
+    <title>Snake Game 3.0</title>
+  </head>
+  <body>
+    <div id="conteiner">
+      <h1><img src="/images/logo.png" alt="Snake" /></h1>
+
+      <div id="status">
+        <div id="pontuacao-fruta">
+          <img src="images/fruta.png" alt="Fruta" />
+          <span id="pontuacao">0</span>
+        </div>
+        <div id="play">
+          <img src="images/but_play.png" alt="" />
+        </div>
+
+        <div id="pause-continue">
+          <img src="images/but_pause.png" alt="" />
+          <img src="images/but_continue.png" alt="" />
+        </div>
+      </div>
+      <canvas id="snakeGame" width="790" height="460"> </canvas>
+      <div class="credito">@Gabriel Robertson</div>
+    </div>
+    <img id="fruta" src="images/fruta.png" alt="fruta" />
+    <img class="cabeca" id="cabecaUp" src="/images/cabecaUP.png" />
+    <img class="cabeca" id="cabecaLeft" src="/images/cabecaLeft.png" />
+    <img class="cabeca" id="cabecaDown" src="/images/cabecaDown.png" />
+    <img class="cabeca" id="cabecaRight" src="/images/cabecaRight.png" />
+    <img class="cabeca" id="rabo" src="/images/rabo.png" />
+    <img class="cabeca" id="raboLateral" src="/images/rabolateral.png" />
+    <img class="cabeca" id="cauda" src="/images/calda.png" />
+
+    <script src="/snake.js"></script>
+  </body>
+</html>
